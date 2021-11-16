@@ -23,6 +23,7 @@ jobs:
           - ubuntu
         ruby:
           - "3.0"
+          - truffleruby-head
         test_command: ["bundle exec rspec && bundle exec cucumber"]
         include:
           - os: ubuntu
